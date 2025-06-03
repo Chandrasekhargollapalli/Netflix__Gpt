@@ -1,3 +1,5 @@
+import Body from "./Components/body"
+import AppRoutes from "./Components/Routes/AppRoutes"
 
 
 function App() {
@@ -5,9 +7,7 @@ function App() {
 
   return (
     <>
-    <div>
-      <h1 className='bg-red-600'>hello</h1>
-    </div>
+    <AppRoutes/>
     </>
   )
 }
