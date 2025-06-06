@@ -1,10 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 import Body from "../body"
+import Browse from "../Browse"
 
 const AppRoutes = ()=>{
     return(
 <Routes>
     <Route path='/' element={<Body/>}/>
+    <Route path='/Browse' element ={<Browse/>}/>
 </Routes>
     )
 }
