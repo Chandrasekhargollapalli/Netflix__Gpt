@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Body from "../body"
-import Browse from "../Browse"
+import Browse from "../Browse/Browse"
+
 
 const AppRoutes = ()=>{
     return(

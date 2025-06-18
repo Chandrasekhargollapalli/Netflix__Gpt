@@ -40,7 +40,7 @@ updateProfile(user, {
 
     console.log('update profile auth user',Auth.currentUser)
     dispatch(addUser({email:email,displayName:displayName,photoURL:photoURL,uid:uid}))
-  navigate('/Browse')
+
 }).catch((error) => {
   // An error occurred
   // ...
@@ -64,7 +64,7 @@ signInWithEmailAndPassword(Auth, email.current.value, password.current.value)
     const user = userCredential.user;
     // ...
     console.log(user)
-     navigate('/Browse')
+   
   })
   .catch((error) => {
     const errorCode = error.code;
