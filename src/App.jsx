@@ -6,6 +6,9 @@ import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "./Redux/userSlice";
 import { useNavigate } from "react-router-dom";
 
+import './App.css';
+
+
 function App() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
@@ -16,7 +19,7 @@ onAuthStateChanged(Auth, (user) => {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/auth.user
     const {email,displayName,uid,photoURL} = user
-    console.log('app.js userrr',user)
+
     dispatch(addUser({email:email,displayName:displayName,uid:uid,photoURL:photoURL}))
    navigate('/Browse')
   } else {

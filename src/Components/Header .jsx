@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 const Header = ()=>{
    const user = useSelector(user=>user?.user)
-   console.log('heaseder user....',user?.user?.email)
+
 const navigate = useNavigate()
 
 const handleSignOut = ()=>{

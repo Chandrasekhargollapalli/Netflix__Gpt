@@ -1,2 +1,3 @@
 
 export const token = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NmE4ZTRjODc3ZWJmMjEzMGViMzY2ZTZhYjFiYjVmNSIsIm5iZiI6MTc0OTQwMzE1MC44MzgsInN1YiI6IjY4NDVjNjBlMjFjY2VjM2FhNTM0MjQzYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6xaL9uHu_HhEN69WLWuQd9VW3OmDJbZbC5C8pacv_RU'
+export const IMG_URL = 'https://image.tmdb.org/t/p/w300/'

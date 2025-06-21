@@ -15,7 +15,7 @@ const response  = await axios.get('https://api.themoviedb.org/3/movie/now_playin
     }
 })
 dispatch(addnowPlayingMovies(response?.data?.results))
-console.log('response of now playing movies',response?.data?.results)
+
 }catch(error){
     console.log(error)
 }

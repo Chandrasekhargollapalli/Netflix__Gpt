@@ -1,3 +1,4 @@
+import Seconduary from "./Seconduary"
 import VideoBackground from "./VideoBackground"
 import VideoTitle from "./VideoTitle"
 import { useSelector } from "react-redux"
@@ -11,6 +12,8 @@ const MainComponent = ()=>{
         <div>
 <VideoTitle Title={Title}/>
 <VideoBackground Title={Title}/>
+<Seconduary/>
+
 
         </div>
     )
